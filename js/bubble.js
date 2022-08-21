@@ -112,7 +112,7 @@ btn1.onclick = function () {
     }
 }
 function funct() {
-    window.open("/index.html", "_parent");
+    window.open("../index.html", "_parent");
 }
 document.getElementById("b2").onclick = function () {
     clearInterval(timei);
