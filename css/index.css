@@ -1,31 +1,5 @@
 
 body {
-  background-color: #eef8c0;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  text-align: center;
-}
-article {
-
-  padding-top: 50px;
-  /*  leverage cascade for cross-browser gradients  */
-  background: radial-gradient(
-    hsl(100 100% 60%), 
-    hsl(200 100% 60%) 
-  ) fixed;
-  background: conic-gradient(
-    hsl(100 100% 60%), 
-    hsl(200 100% 60%), 
-    hsl(100 100% 60%) 
-  ) fixed;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-} 
-
-
-body {
   background: hsl(204 100% 5%);
 /*   background: conic-gradient(
     hsl(100 100% 60%), 
@@ -43,6 +17,23 @@ body {
   font-size: min(200%, 5vmin);
 }
 
+article {
+  padding-top: 50px;
+  /*  leverage cascade for cross-browser gradients  */
+  background: radial-gradient(
+    hsl(100 100% 60%), 
+    hsl(200 100% 60%) 
+  ) fixed;
+  background: conic-gradient(
+    hsl(100 100% 60%), 
+    hsl(200 100% 60%), 
+    hsl(100 100% 60%) 
+  ) fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+} 
+
 h1, p, body {
   margin: 0;
 }
@@ -55,7 +46,7 @@ h1 {
 }
 
 p, .btncl {
-  font-family: "Dank Mono", ui-monospace, monospace;
+  font-family: sans-serif Arial, Helvetica, sans-serif ;
   font-size: medium;
   margin-top: 2ch;
   line-height: 1.2;
@@ -83,8 +74,8 @@ html {
   font-size: 20px;
   font-weight: 400;
   border: 4px ridge rgb(9, 237, 254);
-  border-radius: 6px;
   cursor: grab;
+  border-radius: 12px;
 }
 
 a i {

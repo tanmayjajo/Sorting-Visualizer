@@ -1,0 +1,168 @@
+body {
+    background-color: rgba(1,0,140,255);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    place-content: center;
+    font-size: min(200%, 5vmin);
+}
+
+article {
+    padding-top: 50px;
+    /*  leverage cascade for cross-browser gradients  */
+    color: lightblue;
+    
+}
+
+
+h1 {
+    font-size: 10vmin;
+    line-height: 1;
+    max-inline-size: 15ch;
+    margin: auto;
+  }
+  
+  p{
+    font-family: sans-serif Arial, Helvetica, sans-serif ;
+    font-size: medium;
+    margin-top: 2ch;
+    line-height: 1.5;
+    max-inline-size: 80ch;
+    margin: auto;
+  }
+  
+
+.btncl:hover {
+    background-color: rgba(1,0,140,255);
+    
+    color: rgb(255, 255, 255);
+}
+
+.btncl {
+    transition-duration: 0.4s;
+    width: 170px;
+    height: 55px;
+    margin-top: 20px;
+    padding: 0px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: grab;
+    box-shadow: 1px 1px;
+
+    background: radial-gradient(
+        rgba(1,0,140,255)
+      )fixed;
+
+    border: 5px ridge rgb(37, 150, 190);
+    border-radius: 12px;
+
+}
+
+#bx1 {
+    margin-left: 15%;
+    padding: 10px;
+    height: 38px;
+    width: 70%;
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    color: lightblue;
+}
+
+.in {
+    margin-left: 22%;
+    margin-top: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 56%;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    /* border-width: 3px;
+    border-style: groove; */
+
+    background-color: transparent;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.inn {
+    margin-left: 10%;
+    margin-top: 8px;
+    padding: 10px;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    /* border-width: 2px; */
+    /* border-style: dotted; */
+    border-radius: 8px;
+    color: black;
+    background-color: rgba(1,0,140,255);
+}
+
+li {
+    list-style: none;
+}
+
+.sd {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    height: 90%;
+    width: 9%;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 10000px;
+    border-radius: 5px;
+    border: 2px solid rgb(12, 10, 10);
+    color: rgb(255, 255, 255);
+}
+
+.st {
+    background-color: rgb(255, 38, 0);
+}
+
+.et {
+    background-color: rgb(217, 0, 255);
+}
+
+.ring {
+    background-color: rgb(0, 229, 255);
+}
+
+.ping {
+    background-color: rgb(28, 255, 7);
+    border: 4px solid rgb(136, 0, 255);
+    border-radius: 10px;
+    color: black;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border: 3px solid black;
+    box-shadow: inset 0 0 2.5px 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top,
+            rgb(172, 163, 177),
+            rgb(114, 191, 214),
+            rgb(104, 255, 98),
+            rgb(243, 240, 44),
+            orange,
+            rgb(243, 50, 50));
+    border-radius: 2px;
+}
